@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>title</title>
+    <!--  -->
+    @@include('templateHtml/head.html')
+    <!--  -->
+  </head>
+
+  <body>
+    <div class="mainWrapper">
+      <div class="contentWrapper">
+        <!--  -->
+        @@include('templateHtml/header.html', { "home": "active" })
+        <!--  -->
+      </div>
+      <!--  -->
+     
+      
+      <!--  -->
+      @@include('templateHtml/footer.html') 
+      <!--  -->
+    </div>
+    <!--  -->
+    @@include('templateHtml/scripts.html')
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="accordionMenu">
+  <div class="menu-header">
+    <div class="title-container">
+      <div class="title medium"><a href="{{ route('categories.index') }}">Каталог товаров</a></div>
+    </div>
+    <div class="arrow-button-container push-right accordionButton sidebarOpenButton">
+      <i class="fas fa-bars"></i>
+    </div>
+  </div>
+  <div class="hiddenContent height submenuWrapper mainSubmenuWrapper">
+    <div class="content-container">
+      <div class="submenu-list">
+        @foreach($categories as $category)
+          <div class="submenu-item">
+            <div class="menu-item-container flex center">
+              <div class="title-container">
+                <div class="title section-title medium arrowdrop">
+                  <a href="{{ route('categories.show', ['category' => $category]) }}" class="">{{ $category->name }}</a>
+                </div>
+              </div>
+              @if($category->subCategories)
+                <div class="arrow-button-container push-right accordionButton">
+                  <i class="fas fa-plus"></i>
+                </div>
+              @endif
+            </div>
+
+              <div class="hiddenContent submenuWrapper height">
+                <div class="content-container">
+                  <div class="submenu-list">
+                    @foreach($category->subCategories as $subCategory)
+                    <div class="submenu-item">
+                        <div class="menu-item-container flex center">
+                          <div class="title-container">
+                            <div class="title medium arrowdrop">
+                              <a href="{{ route('categories.show', ['category' => $subCategory]) }}" class="">{{ $subCategory->name }}</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    @endforeach
+                    </div>
+                  </div>
+              </div>
+          </div>
+
+        @endforeach
+
+      </div>
+    </div>
+  </div>
+</div> -->
