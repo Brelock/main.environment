@@ -3,6 +3,7 @@ body {
 	font-family: $mainFont;
 	color: $mainFontColor;
 	position: relative;
+	margin: 0em;
 }
 body.js_pageOverlayOpen {	overflow: hidden;}
 

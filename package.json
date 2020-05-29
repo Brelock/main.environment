@@ -1,22 +1,4 @@
 {
-  "name": "myfrontenvironment",
-  "version": "1.7.4",
-  "author": "Mironov Maxim",
-  "homepage": "https://github.com/Maximzp83/myFrontEnvironment#readme",
-  "license": "MIT",
-  "description": "html/css/js builder based on gulp/sass",
-  "main": "gulpfile.js",
-  "scripts": {
-    "test": "envTest",
-    "gulp": "./node_modules/.bin/gulp"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Maximzp83/myFrontEnvironment.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Maximzp83/myFrontEnvironment/issues"
-  },
   "dependencies": {
     "gulp-install": "^1.1.0",
     "jquery": "^3.5.0",
