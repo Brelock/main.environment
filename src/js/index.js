@@ -7,7 +7,9 @@ $(document).ready(function() {
 	// console.log('document ready')
 	// console.log(dropDown)	
 	// =================Include Modules==============================
-	// console.log(test);
+
+	  /*@@include('frames/modal.js')*/
+	
 
 	// if (document.documentElement.clientWidth > 991 ) {}
 
