@@ -7,8 +7,8 @@
   "description": "html/css/js builder based on gulp/sass",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "envTest",
-    "gulp": "./node_modules/.bin/gulp"
+      "copyProdJsToSite": "gulp build:prod; cp -a ./production/js/index.min.js ../../full/proects.back/public/js/",
+      "copyProdCssToSite": "gulp build:prod; cp -a ./production/css/main.min.css ../../full/proects.back/public/css/"
   },
   "repository": {
     "type": "git",
