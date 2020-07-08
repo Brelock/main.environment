@@ -1,4 +1,22 @@
 {
+  "name": "environment",
+  "version": "1.7.6",
+  "author": "Alex Bob",
+  "homepage": "https://github.com/Brelock/main.environment",
+  "license": "MIT",
+  "description": "html/css/js builder based on gulp/sass",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "envTest",
+    "gulp": "./node_modules/.bin/gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brelock/main.environment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Brelock/main.environment/issues"
+  },
   "dependencies": {
     "gulp-install": "^1.1.0",
     "jquery": "^3.5.0",
